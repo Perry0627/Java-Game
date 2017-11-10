@@ -1,2 +1,2 @@
 # Java-Game
-Lab Six
+Lab Seven
