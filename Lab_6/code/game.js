@@ -210,8 +210,8 @@ Level.prototype.animate = function(step, keys) {
     step -= thisStep;
   }
 };
-var wobbleSpeed = 8;
-var wobbleDist = 0.07;
+var wobbleSpeed = 13;
+var wobbleDist = 0.09;
 Coin.prototype.act = function(step){
 	this.wobble += step * wobbleSpeed;
 	var wobblePos = Math.sin(this.wobble) * wobbleDist;
